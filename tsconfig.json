@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "jsx": "preserve",
+        "lib": ["dom", "esnext", "es2015", "es2016", "es2017"],
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "target": "es2015",
+        "paths": {
+            "@/assets/*": ["assets/*"],
+            "@/components/*": ["components/*"],
+            "@/pages/*": ["pages/*"]
+        },
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules/*", "public/*"]
+}
