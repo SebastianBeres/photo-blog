@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import Hello from '@/components/ui/Hello';
 
-export default function Home() {
+const Home = () => {
     const [status, setStatus] = useState(false);
 
     return (
@@ -22,3 +22,5 @@ export default function Home() {
         </div>
     );
 }
+
+export default Home;

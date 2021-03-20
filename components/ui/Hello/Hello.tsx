@@ -2,8 +2,8 @@ import { FC } from 'react';
 import cx from 'classnames';
 
 type HelloProps = {
-    status: boolean;
-    onClick: () => void;
+    status?: boolean;
+    onClick?: () => void;
 };
 
 const Hello: FC<HelloProps> = ({ children, onClick, status }) => {
