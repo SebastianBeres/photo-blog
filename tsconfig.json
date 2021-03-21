@@ -11,6 +11,7 @@
         "noUnusedParameters": true,
         "target": "es2015",
         "paths": {
+            "@/api/*": ["api/*"],
             "@/assets/*": ["assets/*"],
             "@/components/*": ["components/*"],
             "@/pages/*": ["pages/*"]

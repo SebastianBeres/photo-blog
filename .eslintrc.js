@@ -1,7 +1,8 @@
 module.exports = {
-    settings: {
-        react: {
-            version: 'detect'
-        }
-    }
+	extends: 'prettier',
+	settings: {
+		react: {
+			version: 'detect'
+		}
+	}
 };
